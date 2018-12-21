@@ -1,0 +1,808 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Amiko", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav {
+  display: none;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.title {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  width: 176px;
+  margin: 0 auto;
+}
+
+.line {
+  display: none;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.brandmark {
+  width: 240px;
+  margin: 0 auto;
+  padding-top: 5%;
+  transition: all 1s ease;
+
+}
+
+header {
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.tag {
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 40%;
+  padding-bottom: 10%;
+  margin: 0;
+
+}
+
+.connect {
+  width: 228px;
+  margin: 0 auto;
+  padding-bottom: 80%;
+  padding-top: 10%;
+}
+
+.connect a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 5%;
+    border: 2px solid #fff;
+}
+
+.connect a:hover {
+    color: #E3EE60;;
+    border: 2px solid #E3EE60;;
+}
+
+#about {
+  background-color: #20BEE5;
+}
+
+.located {
+  font-family: "Crete Round", serif;
+  font-size: 3rem;
+  color: #fff;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 20%;
+}
+
+.massachusetts img {
+  width: 100%;
+  height: auto;
+}
+
+.massachusetts {
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.lotus img {
+  width: 100%;
+  height: auto;
+}
+
+.lotus {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.philosophy {
+  font-family: "Crete Round", serif;
+  font-size: 3rem;
+  color: #20BEE5;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 20%;
+}
+
+.lobster {
+  font-family: "Lobster", cursive;
+}
+
+#services {
+  background-color: #20BEE5;
+}
+
+.lightning {
+  display: none;
+}
+
+.apply {
+  padding-top: 30%;
+  margin-left: -40px;
+  width: 275px;
+}
+
+.apply p {
+  color: #20BEE5;
+  background-color: #fff;
+  font-family: "Crete Round", serif;
+  font-size: 2rem;
+  padding: 5% 5% 5% 5%;
+}
+
+.list {
+  list-style-type: none;
+  padding-bottom: 30%;
+  padding-left: 0;
+}
+
+.list li {
+  font-family: "Crete Round", cursive;
+  font-size: 1.9rem;
+  color: #fff;
+  line-height: 2;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.yellow {
+  color: #E3EE60;
+}
+
+.img-desktop {
+  display: block;
+}
+
+.content {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.content2 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.img-mobile {
+  width: 100%;
+}
+
+.img-mobile img {
+  width: 100%;
+}
+
+.image1 {
+  background-image: none;
+}
+
+.image2 {
+  background-image: none;
+}
+
+.image3 {
+  background-image: none;
+}
+
+
+
+hr {
+  border: 1px solid #E3EE60;
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  font-size: 2.4rem;
+  color: #20BEE5;
+}
+
+h2 {
+  font-family: "Biryani", sans-serif;
+  font-size: 2rem;
+  color: #20BEE5;
+  font-weight: bold;
+}
+
+.responsive {
+  font-weight: bold;
+}
+
+.connect2 {
+  width: 228px;
+  padding-bottom: 10%;
+}
+.connect2 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #20BEE5;
+    font-size: 2rem;
+    padding: 5%;
+    border-radius: 1px;
+}
+
+.connect2 a:hover {
+    background-color: #ccc;
+}
+
+footer {
+  background-color: #20BEE5;
+  color: #20BEE5;
+}
+
+.logo2 {
+  width: 125px;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.logo2 img {
+  width: 100%;
+  height: auto;
+}
+
+.title2 {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tag2 {
+  font-family: "Amiko", sans-serif;
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+
+ table {
+   padding-top: 20%;
+   padding-bottom: 20%;
+ }
+
+th, td {
+    height: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.social {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.media-styles {
+  color: #fff;
+  font-family: "Amiko", sans-serif;
+  font-size: 2.5rem;
+}
+
+.media-styles a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.media-styles a:hover {
+    color: #E3EE60;
+}
+
+.icons img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.icons  {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.rights {
+  color: #fff;
+  font-family: "Amiko", sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 10%;
+}
+
+
+/*Contact Form*/
+
+.contact {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 30%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Amiko", sans-serif;
+    font-size: 1.6rem;
+}
+
+input[type=submit] {
+    background-color: #E3EE60;
+    color: #20BEE5;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+input[type=submit]:hover {
+    background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+  .container {
+    width: 70rem;
+  }
+
+  .top-flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+    padding-top: 3%;
+    width: 300px;
+  }
+
+  nav li {
+  display: inline;
+  padding: 1%;
+  }
+
+  .slash {
+    color: #ccc;
+    font-size: 1.4rem;
+  }
+
+  nav a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .brandmark {
+    margin-left: 3%;
+    padding-top: 3%;
+    display: flex;
+  }
+
+  .title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 3.4rem;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 5%;
+  }
+
+  .line {
+    display: block;
+  }
+
+  .tag {
+    font-family: "Amiko", sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 20%;
+    padding-bottom: 0;
+  }
+
+  .border {
+    padding: 15%;
+    border: 1px solid #fff;
+  }
+
+  .connect {
+    width: 228px;
+    margin: 0 auto;
+    padding-bottom: 30%;
+  }
+
+  .located {
+    font-family: "Crete Round", serif;
+    font-size: 5rem;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 20%;
+  }
+
+  .philosophy {
+    font-family: "Crete Round", serif;
+    font-size: 4.5rem;
+    color: #20BEE5;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 20%;
+  }
+
+  .lightning {
+    display: inline-block;
+    margin-left: -100px;
+  }
+
+  .lightning img {
+    width: 150%;
+    height: auto;
+  }
+
+  .process {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 100%;
+
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .marketing {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+  }
+
+  .list li {
+    font-family: "Crete Round", cursive;
+    font-size: 2.4rem;
+    color: #fff;
+    line-height: 2;
+  }
+
+  .apply {
+    padding-top: 15%;
+    margin-left: -40px;
+    width: 375px;
+  }
+
+  .apply p {
+    color: #20BEE5;
+    background-color: #fff;
+    font-family: "Crete Round", serif;
+    font-size: 2.6rem;
+    padding: 3%;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content {
+    padding-left: 40%;
+  }
+
+  .content2 {
+    padding-right: 40%;
+  }
+
+  .con-bg {
+    width: 400px;
+    background-color: #fff;
+    padding: 10%;
+    margin: 0 auto;
+
+  }
+
+  .image1 {
+    background-image: url("../images/discover-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .image2 {
+    background-image: url("../images/define-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .image3 {
+    background-image: url("../images/design-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  table {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .rights {
+    padding-left: 10%;
+  }
+
+  td {
+    padding-bottom: 3%;
+  }
+
+
+
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+  .container {
+    width: 98rem;
+  }
+
+  .top-flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+    padding-top: 3%;
+    width: 350px;
+  }
+
+  nav li {
+  display: inline;
+  padding: 1%;
+  }
+
+  .slash {
+    color: #ccc;
+    font-size: 1.4rem;
+  }
+
+  nav a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .brandmark {
+    margin-left: 3%;
+    padding-top: 3%;
+    display: flex;
+  }
+
+  .title {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 3.4rem;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 5%;
+  }
+
+  .line {
+    display: block;
+  }
+
+  .tag {
+    font-family: "Amiko", sans-serif;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 20%;
+    padding-bottom: 0;
+  }
+
+  .border {
+    padding: 15%;
+    border: 1px solid #fff;
+  }
+
+  .connect {
+    width: 228px;
+    margin: 0 auto;
+    padding-bottom: 30%;
+  }
+
+  .philosophy {
+    font-family: "Crete Round", serif;
+    font-size: 5rem;
+    color: #20BEE5;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 20%;
+  }
+
+  .lightning {
+    display: inline-block;
+    margin-left: -100px;
+  }
+
+  .lightning img {
+    width: 150%;
+    height: auto;
+  }
+
+  .process {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 100%;
+
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .marketing {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+  }
+
+  .list li {
+    font-family: "Crete Round", cursive;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 2;
+  }
+
+  .apply {
+    padding-top: 15%;
+    margin-left: -40px;
+    width: 375px;
+  }
+
+  .apply p {
+    color: #20BEE5;
+    background-color: #fff;
+    font-family: "Crete Round", serif;
+    font-size: 3rem;
+    padding: 3%;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content {
+    padding-left: 60%;
+  }
+
+  .content2 {
+    padding-right: 60%;
+  }
+
+  .con-bg {
+    background-color: #fff;
+    padding: 10%;
+  }
+
+  .image1 {
+    background-image: url("../images/discover-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .image2 {
+    background-image: url("../images/define-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .image3 {
+    background-image: url("../images/design-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  table {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .rights {
+    padding-left: 10%;
+  }
+
+  td {
+    padding-bottom: 3%;
+  }
+
+
+
+}
