@@ -76,14 +76,14 @@ header {
   width: 228px;
   margin: 0 auto;
   padding-bottom: 80%;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .connect a {
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
-    padding: 5%;
+    padding: 7%;
     border: 2px solid #fff;
 }
 
