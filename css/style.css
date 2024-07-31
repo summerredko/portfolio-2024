@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Amiko", sans-serif;
+  font-family: "Crete+Round", sans-serif;
 }
 
 .container {
@@ -39,11 +39,12 @@ nav a:hover {
 
 .logo {
   width: 100px;
-  margin: 0 auto;
+  margin-right: -50px;
+
 }
 
 .logo img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -59,6 +60,13 @@ header {
   background-image: url("../images/hero-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+   /* Create a parallax effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 
 .tag {
@@ -82,7 +90,7 @@ header {
 .connect a {
     text-decoration: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 7%;
     border: 2px solid #fff;
 }
@@ -112,7 +120,7 @@ header {
 }
 
 .massachusetts {
-  width: 250px;
+  width: 30%;
   margin: 0 auto;
   padding-top: 10%;
 }
@@ -209,14 +217,32 @@ ul {
 
 .image1 {
   background-image: none;
+  height: 100%;
+  /* Create a parallax effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .image2 {
   background-image: none;
+  height: 100%;
+  /* Create a parallax effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .image3 {
   background-image: none;
+  height: 100%;
+  /* Create a parallax effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 hr {
@@ -246,9 +272,10 @@ h2 {
 }
 .connect2 a {
     text-decoration: none;
+    font-family: "Crete+Round", sans-serif;
     color: #fff;
     background-color: #20BEE5;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 5%;
     border-radius: 1px;
 }
@@ -274,7 +301,7 @@ footer {
 }
 
 .title2 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Crete+Round", sans-serif;
   font-size: 4rem;
   color: #fff;
   text-align: center;
@@ -284,7 +311,7 @@ footer {
 .tag2 {
   font-family: "Amiko", sans-serif;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   text-align: center;
   padding-bottom: 5%;
   margin: 0 auto;
@@ -327,7 +354,7 @@ th, td {
 }
 
 .icons  {
-  width: 10%;
+  width: 5%;
   margin: 0 auto;
 }
 
@@ -355,7 +382,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-family: "Amiko", sans-serif;
+    font-family: "Crete+Round", sans-serif;
     font-size: 1.6rem;
 }
 
@@ -427,7 +454,7 @@ input[type=submit]:hover {
   }
 
   .title {
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Crete+Round", sans-serif;
     font-size: 3.4rem;
     font-weight: 300;
     color: #fff;
@@ -457,6 +484,8 @@ input[type=submit]:hover {
     width: 166px;
     margin: 0 auto;
     padding-bottom: 30%;
+    font-family: "Crete+Round", sans-serif;
+
   }
 
   .located {
@@ -639,25 +668,23 @@ input[type=submit]:hover {
   }
 
   .title {
-    font-family: "Comfortaa", sans-serif;
-    font-size: 3.4rem;
-    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
     color: #fff;
-    padding-left: 5%;
-  }
+    }
 
   .line {
     display: block;
   }
 
   .tag {
-    font-family: "Amiko", sans-serif;
+    font-family: "Crete Round", sans-serif;
     color: #fff;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
-    margin: 0;
-    padding-top: 20%;
-    padding-bottom: 0;
+    margin-top: -10%;
+  
   }
 
   .border {
@@ -669,6 +696,8 @@ input[type=submit]:hover {
     width: 166px;
     margin: 0 auto;
     padding-bottom: 30%;
+    font-family: "Crete+Round", sans-serif;
+
   }
 
   .philosophy {
