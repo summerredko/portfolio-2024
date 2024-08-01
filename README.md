@@ -1,6 +1,1 @@
-Soft Animal is a boutique design and development firm in Northampton, MA.
-
-Web * Mobile * UX * Branding
-
-www.softanimal.io
-# portfolio-2024
+I am a UX/UI designer and front-end web developer based in Northampton, MA, USA.
