@@ -38,8 +38,22 @@ class Slider {
         this.navButtons.forEach((button, buttonIndex) => {
             const isSelected = buttonIndex === this.currentSlideIndex;
             button.setAttribute("aria-selected", isSelected);
-            if (isSelected) button.focus();
+            // Optionally remove or conditionally set focus
+            // if (isSelected && this.isElementInViewport(button)) {
+            //     button.focus();
+            // }
         });
+    }
+
+    // Helper function to check if an element is in the viewport
+    isElementInViewport(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
     }
 
     preloadImages() {
