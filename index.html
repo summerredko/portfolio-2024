@@ -254,39 +254,37 @@ Curious and ever-learning, I’m a true multipotentialite who loves diving into 
             <div class="screen">
               <div class="screen-body">
                 <div class="screen-body-item left">
-                  <table class="social-icons">
-                    <tbody>
-                      <tr>
-                        <td>
-                          <a href="https://www.linkedin.com/in/summerredko/"><img src="images/linkedin-white.png"
-                            alt="GitHub" style="width:40px;height:40px;"></a>
-                        </td>
-                        <td>
-                          <a href="https://github.com/summerredko"><img src="images/github-mark-white.png" alt="GitHub"
-                            style="width:30px;height:30px;"></a>
-                        </td>
-                        <td>
-                          <a href="mailto:summerredko@gmail.com"><img src="images/email-icon.png" alt="Email"
-                            style="width:35px;height:35px;"></a>
-                        </td>
-                      </tr>
-                    </tbody>
-                    <div class="app-title">
-                      <span>CONTACT</span>
-                    </div>
-                  </table>
+                  <div class="app-title">
+                    <span>CONTACT</span>
+                  </div>
+                  
+                  <div class="social-icons" style="display: flex; gap: 10px; align-items: center;">
+                    <a href="https://www.linkedin.com/in/summerredko/">
+                      <img src="images/linkedin-white.png" alt="LinkedIn" style="width:40px; height:40px;">
+                    </a>
+                    <a href="https://github.com/summerredko">
+                      <img src="images/github-mark-white.png" alt="GitHub" style="width:30px; height:30px;">
+                    </a>
+                    <a href="mailto:summerredko@gmail.com">
+                      <img src="images/email-icon.png" alt="Email" style="width:35px; height:35px;">
+                    </a>
+                  </div>
+                  
                 </div>
                 <div class="screen-body-item">
                   <div class="app-form">
-                    <form action="send_email.php" method="post">
+                    <form action="https://formspree.io/f/xwpbzaaa" method="POST">
                       <div class="app-form-group">
-                        <input class="app-form-control" name="name" placeholder="NAME" value="" required>
+                        <input class="app-form-control" name="name" placeholder="NAME" value=""
+                          required>
                       </div>
                       <div class="app-form-group">
-                        <input class="app-form-control" name="email" placeholder="EMAIL" type="email" required>
+                        <input class="app-form-control" name="email" placeholder="EMAIL" type="email"
+                          required>
                       </div>
                       <div class="app-form-group">
-                        <input class="app-form-control" name="contact" placeholder="CONTACT NO" required>
+                        <input class="app-form-control" name="contact" placeholder="CONTACT NO"
+                          required>
                       </div>
                       <div class="app-form-group message">
                         <input class="app-form-control" name="message" placeholder="MESSAGE" required>
@@ -294,6 +292,7 @@ Curious and ever-learning, I’m a true multipotentialite who loves diving into 
                       <div class="app-form-group buttons">
                         <button class="app-form-button" type="submit">SEND</button>
                       </div>
+                      <input type="text" name="_gotcha" style="display: none;">
                     </form>
                   </div>
                 </div>
