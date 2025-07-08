@@ -1832,8 +1832,8 @@ td {
     font-size: 0.95rem;
   }
 
-  .bio-photo {
-    border: 2px solid #fff;
+  .bio-photo img {
+    border: 5px solid #fff;
   }
   
 }
