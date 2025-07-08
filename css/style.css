@@ -1493,7 +1493,7 @@ td {
   .image2,
   .image3 {
     background-image: none !important;
-    background-color: #f8f9fa; /* or any solid color you prefer */
+    background-color: #20bee5; /* or any solid color you prefer */
     background-attachment: scroll; /* remove parallax on mobile */
   }
 
