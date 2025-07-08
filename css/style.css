@@ -1845,5 +1845,11 @@ td {
   .list {
     padding-left: 2rem; 
   }
+
+  .massachusetts {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10%;
+  }
   
 }
