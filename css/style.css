@@ -434,7 +434,6 @@ a:visited {
   /* Add padding to the bottom */
 }
 
-
 :root {
   --active-color: hsl(204 100 53);
   --bg-color: #e1e3e5;
@@ -621,14 +620,7 @@ a:visited {
   /* Ensure normal white-space handling */
   /* border: 2px double #4CAF50; */
   padding: 8px;
-  border-collapse: collapse;
-  table-layout: fixed;
 }
-
-.case-study th, .case-study td {
-  width: 50%;
-}
-
 
 hr {
   border: 1px solid #effd5f;
@@ -1325,7 +1317,6 @@ td {
       padding-bottom: 2rem;
     }
   }
-  
 }
 
 /* Flex layout for screen-body */
@@ -1529,21 +1520,19 @@ td {
   .apply {
     margin: 0 auto;
     width: 375px;
-    
   }
 
   .apply {
     padding-top: 15%;
     /* margin-left: -40px; */
     padding-left: 10%;
-
   }
 
   .apply p {
     font-family: "Lobster", serif;
     font-size: 3rem;
-    background-color: #fff; 
-  } 
+    background-color: #fff;
+  }
 
   .process,
   .marketing,
@@ -1743,7 +1732,7 @@ td {
     line-height: 1.5;
     font-weight: lighter;
   }
-  
+
   .content2 h2 {
     font-family: "Georgia", serif;
     font-size: 1.8rem;
@@ -1787,20 +1776,19 @@ td {
   .connect2 a {
     text-decoration: none;
     font-family: "Arial", sans-serif;
-    color: #fff !important; 
+    color: #fff !important;
     background-color: #20bee5;
     font-size: 1.5rem;
     padding: 5%;
     border-radius: 1px;
     border: 2px solid #fff !important;
   }
-  
+
   .connect2 a:hover {
     /* color: #fff; */
     /* background-color: #20bee5; */
     border: none;
   }
-
 
   .apply p {
     font-family: "Lobster", serif;
@@ -1824,7 +1812,6 @@ td {
     color: #ffffff;
     line-height: 2;
   }
-
 
   .content2-mobile {
     background-color: #fff !important;
@@ -1859,7 +1846,7 @@ td {
   }
 
   .list {
-    padding-left: 2rem; 
+    padding-left: 2rem;
   }
 
   .massachusetts {
@@ -1867,38 +1854,4 @@ td {
     margin: 0 auto;
     padding-top: 10%;
   }
-  
 }
-/* Responsive table for project pages*/
-
-/* Make table full width */
-.table-container table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-/* Responsive stacking on smaller screens */
-@media (max-width: 768px) {
-  .table-container table,
-  .table-container tbody,
-  .table-container tr,
-  .table-container td {
-    display: block;
-    width: 100%;
-  }
-
-  .table-container tr {
-    margin-bottom: 2rem; /* spacing between stacked rows */
-  }
-
-  .table-container td {
-    box-sizing: border-box;
-    padding: 1rem;
-    border-bottom: 1px solid #ccc;
-  }
-
-  .table-container td:last-child {
-    border-bottom: none;
-  }
-}
-
