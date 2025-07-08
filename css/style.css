@@ -1537,10 +1537,10 @@ td {
   }
 
   .apply p {
-    font-family: "Crete Round", serif;
-    font-size: 2.6rem;
-    background-color: #fff;
-    color: #20bee5;
+    font-family: "Lobster", serif;
+    font-size: 3rem;
+    /* background-color: #fff; */
+    color: #fff;
     padding: 3%;
   }
 
@@ -1792,6 +1792,15 @@ td {
     /* color: #fff; */
     /* background-color: #20bee5; */
     border: none;
+  }
+
+
+  .apply p {
+    font-family: "Lobster", serif;
+    font-size: 3rem;
+    /* background-color: #fff; */
+    color: #fff;
+    padding: 3%;
   }
   
 }
