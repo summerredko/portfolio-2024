@@ -1788,7 +1788,7 @@ td {
 
   .apply p {
     font-family: "Lobster", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #20bee5;
     color: #fff;
     padding: 3%;
@@ -1804,7 +1804,7 @@ td {
 
   .list li {
     font-family: "Crete Round", cursive;
-    font-size: 1rem !important;
+    font-size: 1.3rem !important;
     color: #ffffff;
     line-height: 2;
   }
