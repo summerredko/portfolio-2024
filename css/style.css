@@ -1839,5 +1839,9 @@ td {
   .located {
     font-size: 3rem;
   }
+
+  ul {
+    padding-left: 10%;
+  }
   
 }
