@@ -1817,5 +1817,19 @@ td {
     /* width: 450px; */
     color: #20bee5 !important;
   }
+
+  .project-container h2 {
+    font-family: serif;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    color: #626262;
+    line-height: 1.5;
+  }
+
+  .project-container a {
+    text-decoration: none;
+    color: #8320e5;
+    font-size: 0.95rem;
+  }
   
 }
