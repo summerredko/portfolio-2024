@@ -1749,7 +1749,7 @@ td {
 
   h1 {
     font-family: "Bitter", serif;
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: #fff;
     margin-bottom: 0;
   }
@@ -1757,6 +1757,6 @@ td {
   .project-container a {
     text-decoration: none;
     color: #8320e5;
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 }
