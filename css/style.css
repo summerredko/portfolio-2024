@@ -1775,11 +1775,12 @@ td {
     width: 228px;
     padding-bottom: 20%;
     padding-top: 10%;
+    background-color: #20bee5
   }
   .connect2 a {
     text-decoration: none;
     font-family: "Arial", sans-serif;
-    color: #20bee5;
+    color: fff;
     /* background-color: white; */
     font-size: 1.5rem;
     padding: 5%;
