@@ -1795,11 +1795,11 @@ td {
   }
 
   .mobile-only-hr {
-    /* display: block; */
-    /* margin: 1.5rem auto; optional styling */
+    display: block;
+    /* margin: 1.5rem auto;  */
     border: none;
     border-top: 1px solid #effd5f;
-    /* width: 80%; */
+    width: 80%;
   }
   
 }
