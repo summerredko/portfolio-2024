@@ -1757,4 +1757,11 @@ td {
     line-height: 1.5;
     font-weight: lighter;
   }
+
+  h1 {
+    font-family: "Bitter", serif;
+    font-size: 2.4rem;
+    color: #fff;
+    margin-bottom: 0;
+  }
 }
