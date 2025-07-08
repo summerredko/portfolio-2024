@@ -1367,9 +1367,12 @@ td {
     padding: 0;
   }
 
-  header {
-    height: 100vh; /* Reduce height on smaller screens */
-    background-position: center top; /* Shift focus to the top part */
+  .header {
+    height: 50vh;
+    background-size: contain;       /* fit whole image */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;         /* fill empty space */
   }
 
   .welcome {
