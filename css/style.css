@@ -1741,4 +1741,20 @@ td {
     background-color: #20bee5 /* or your preferred solid color */
     background-attachment: scroll;
   }
+
+  .content h2 {
+    font-family: "Georgia", serif;
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: lighter;
+  }
+  
+  .content2 h2 {
+    font-family: "Georgia", serif;
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: lighter;
+  }
 }
