@@ -185,10 +185,6 @@ header {
   animation: animate 1.7s linear forwards;
   text-shadow: 0 1px 4px rgba(57, 57, 57, 0.5);
 }
-/* 
-.tag p {
-  font-family: "Merriweather", serif;
-} */
 
 .white-bg {
   background-color: #fff;
@@ -312,6 +308,10 @@ header {
   font-size: 3rem;
   width: 550px;
   padding: 5% 5% 5% 5%;
+}
+
+.mobile-only-hr {
+  display: none;
 }
 
 .list {
@@ -1801,6 +1801,14 @@ td {
     background-color: #20bee5;
     color: #fff;
     padding: 3%;
+  }
+
+  .mobile-only-hr {
+    display: block;
+    margin: 1.5rem auto; /* optional styling */
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 80%;
   }
   
 }
