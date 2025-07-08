@@ -905,17 +905,6 @@ h3 {
 .app-form-button:hover {
   color: #fff;
 }
-/* 
-.credits {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  color: #ffa4bd;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-} */
 
 .credits-link {
   display: flex;
@@ -1535,8 +1524,6 @@ td {
     font-family: "Lobster", serif;
     font-size: 3rem;
     background-color: #fff; 
-    /* color: #fff;
-    padding: 3%; */
   } 
 
   .process,
@@ -1775,8 +1762,8 @@ td {
   .connect2 a {
     text-decoration: none;
     font-family: "Arial", sans-serif;
-    color: #fff;
-    /* background-color: white; */
+    color: #fff !important; 
+    background-color: #20bee5;
     font-size: 1.5rem;
     padding: 5%;
     border-radius: 1px;
