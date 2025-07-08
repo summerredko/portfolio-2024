@@ -1511,17 +1511,6 @@ td {
     width: 90px;
   }
 
-  .brandmark {
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;
-  }
-  .brandmark .logo img {
-    height: 50px;
-    width: auto;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
-
   .title {
     font-family: "Crete Round", sans-serif;
     font-size: 3.4rem;
