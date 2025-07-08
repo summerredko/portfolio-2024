@@ -1491,6 +1491,13 @@ td {
     align-items: center;
   }
 
+  .image1,
+  .image2,
+  .image3 {
+    background-image: none !important;
+    background-color: #20bee5; 
+  }
+
   nav {
     display: inline-block;
     float: right;
