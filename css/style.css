@@ -434,15 +434,6 @@ a:visited {
   /* Add padding to the bottom */
 }
 
-/*Image Gallery*/
-
-/* *,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
 :root {
   --active-color: hsl(204 100 53);
@@ -1804,11 +1795,7 @@ td {
   }
 
   .mobile-only-hr {
-    display: block;
-    margin: 1.5rem auto; /* optional styling */
-    border: none;
-    border-top: 1px solid #ccc;
-    width: 80%;
+    border: 1px solid #effd5f;
   }
   
 }
