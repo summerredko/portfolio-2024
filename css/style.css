@@ -1546,6 +1546,7 @@ td {
   .services {
     flex-direction: row;
     padding-bottom: 10%;
+    padding-left: 10%;
   }
 
   .lightning {
