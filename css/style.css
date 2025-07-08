@@ -110,27 +110,29 @@ nav a:hover {
   display: none;
 }
 
-.logo {
-  width: 100px;
-  margin-right: px;
-}
-
-.logo img {
-  width: 80%;
-  height: auto;
-}
-
 .brandmark {
-  width: 240px;
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 1rem; /* optional spacing between logo and text */
+  width: fit-content; /* or remove width to let it shrink-wrap */
   margin-left: 3%;
   padding-top: 5%;
 }
 
-.brandmark .logo img {
-  height: 50px;
-  width: auto;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+.brandmark .logo {
+  width: 50px; /* adjust as needed */
 }
+
+.brandmark .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.brandmark .title {
+  margin: 0;
+  padding: 0;
+}
+
 
 header {
   border-bottom: #fff solid 1px;
