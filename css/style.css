@@ -6,7 +6,6 @@ html {
   font-size: 10px;
 }
 
-
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
@@ -15,11 +14,11 @@ body {
   color: #595a70;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   max-width: 100vw;
 }
-
 
 .case-study-bg {
   background-color: #fff;
@@ -1513,11 +1512,10 @@ td {
   }
 
   .brandmark {
-    margin-left: 1%;
-    padding-top: 3%;
-    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
   }
-  
 
   .title {
     font-family: "Crete Round", sans-serif;
