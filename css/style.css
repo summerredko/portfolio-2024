@@ -306,8 +306,8 @@ header {
 }
 
 .apply p {
-  color: #fff;
-  /* background-color: #fff; */
+  color: #20bee5;
+  background-color: #fff;
   font-family: "Lobster", serif;
   font-size: 3rem;
   width: 550px;
@@ -1595,7 +1595,7 @@ td {
   }
 
   .featured-projects {
-    /* background-color: #fffefe; */
+    background-color: #fffefe;
     padding: 10%;
     margin: 0 auto;
     border-radius: 8px;
@@ -1762,5 +1762,9 @@ td {
     text-decoration: none;
     color: #8320e5;
     font-size: 1rem;
+  }
+
+  .featured-projects p {
+    font-family: "Crete Round", serif;
   }
 }
