@@ -306,8 +306,8 @@ header {
 }
 
 .apply p {
-  color: #20bee5;
-  background-color: #fff;
+  color: #fff;
+  /* background-color: #fff; */
   font-family: "Lobster", serif;
   font-size: 3rem;
   width: 550px;
@@ -1605,7 +1605,6 @@ td {
 
   .featured-projects p {
     font-family: "Crete Round", serif;
-    color: #fff;
   }
 
   .img-mobile {
