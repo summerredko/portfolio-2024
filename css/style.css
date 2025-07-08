@@ -1513,11 +1513,14 @@ td {
   .apply {
     margin: 0 auto;
     width: 375px;
+    
   }
 
   .apply {
     padding-top: 15%;
-    margin-left: -40px;
+    /* margin-left: -40px; */
+    padding-left: 10%;
+
   }
 
   .apply p {
@@ -1838,10 +1841,6 @@ td {
 
   .located {
     font-size: 3rem;
-  }
-
-  ul {
-    padding-left: 10%;
   }
   
 }
