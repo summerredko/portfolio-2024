@@ -1367,7 +1367,7 @@ td {
     padding: 0;
   }
 
-  .header {
+  header {
     height: 50vh;
     background-size: contain;       /* fit whole image */
     background-repeat: no-repeat;
