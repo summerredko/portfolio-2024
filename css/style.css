@@ -1538,7 +1538,6 @@ td {
   .process {
     flex-direction: column;
     padding-top: 10%;
-    padding-left: 10%;
     width: 100%;
   }
 
@@ -1546,7 +1545,6 @@ td {
   .services {
     flex-direction: row;
     padding-bottom: 10%;
-    padding-left: 10%;
   }
 
   .lightning {
@@ -1842,6 +1840,10 @@ td {
 
   .located {
     font-size: 3rem;
+  }
+
+  .list {
+    padding-left: 2rem; 
   }
   
 }
