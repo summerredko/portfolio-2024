@@ -575,6 +575,10 @@ a:visited {
   filter: opacity(1);
 }
 
+.project-container {
+  padding-bottom: 20%;
+}
+
 @container (max-width: 660px) {
   .nav-button:not(:has(img)) {
     background-color: rgb(241, 235, 232);
@@ -1576,7 +1580,6 @@ td {
     text-decoration: none;
     color: #8320e5;
     font-size: 0.95rem;
-    padding-bottom: 10%;
   }
 
   .projects-bg {
@@ -1755,7 +1758,6 @@ td {
     text-decoration: none;
     color: #8320e5;
     font-size: 1rem;
-    padding-bottom: 10%;
   }
 
   .featured-projects p {
