@@ -376,34 +376,32 @@ a:visited {
 }
 
 .image1 {
-  background-image: none;
-  height: 100%;
-  /* Create a parallax effect */
+  background-image: url("../images/discover-photo.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 .image2 {
-  background-image: none;
-  height: 100%;
-  /* Create a parallax effect */
+  background-image: url("../images/define-photo.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 .image3 {
-  background-image: none;
-  height: 100%;
-  /* Create a parallax effect */
+  background-image: url("../images/design-photo.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
+
 
 .case-study {
   width: 67%;
@@ -1495,8 +1493,11 @@ td {
   .image2,
   .image3 {
     background-image: none !important;
-    background-color: #20bee5; 
+    background-color: #f8f9fa; /* or any solid color you prefer */
+    background-attachment: scroll; /* remove parallax on mobile */
   }
+
+  
 
   nav {
     display: inline-block;
