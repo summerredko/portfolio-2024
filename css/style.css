@@ -1741,6 +1741,13 @@ td {
     margin-bottom: 0;
   }
 
+  .project-container h1 {
+    font-family: "Lobster", serif;
+    font-size: 3rem;
+    color: #20bee5;
+    margin-bottom: 0;
+  }
+
   .project-container a {
     text-decoration: none;
     color: #8320e5;
