@@ -1506,10 +1506,11 @@ td {
   }
 
   .brandmark {
-    margin-left: 3%;
+    margin-left: 1%;
     padding-top: 3%;
     display: flex;
   }
+  
 
   .title {
     font-family: "Crete Round", sans-serif;
