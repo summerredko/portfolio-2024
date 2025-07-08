@@ -136,7 +136,7 @@ header {
   background-image: url("../images/image6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 100vh;
   /* Create a parallax effect */
   background-attachment: fixed;
   background-position: center;
@@ -1368,7 +1368,7 @@ td {
   }
 
   header {
-    height: 40vh; /* Reduce height on smaller screens */
+    height: 100vh; /* Reduce height on smaller screens */
     background-position: center top; /* Shift focus to the top part */
   }
 
