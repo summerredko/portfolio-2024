@@ -1749,7 +1749,7 @@ td {
 
   .featured-projects p {
     font-family: "Crete Round", serif;
-    color: #fff;
+    color: #20bee5;
     font-size: 2rem;
   }
 
@@ -1802,13 +1802,13 @@ td {
 
 
   .featured-projects {
-    background-color: #fffefe !important;
-    padding: 10%;
-    margin: 0 auto;
+    background-color: #fff !important;
+    /* padding: 10%;
+    margin: 0 auto; */
     /* border-radius: 8px; */
     /* border: 5px double #effd5f; */
-    width: 450px;
-    color: #20bee5 !important;
+    /* width: 450px; */
+    /* color: #20bee5 !important; */
   }
   
 }
