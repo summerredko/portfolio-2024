@@ -621,7 +621,6 @@ a:visited {
   /* Ensure normal white-space handling */
   /* border: 2px double #4CAF50; */
   padding: 8px;
-  width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
 }
