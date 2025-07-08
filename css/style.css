@@ -24,6 +24,11 @@ body {
   background-color: #fff;
 }
 
+.case-study td:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+
 .container {
   margin: 0 auto;
   width: 80%;
@@ -1860,5 +1865,29 @@ td {
     margin: 0 auto;
     padding-top: 10%;
   }
+  
+  /* Table Flex*/
+  .case-study,
+  .case-study tbody,
+  .case-study tr,
+  .case-study td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .case-study tr {
+    margin-bottom: 2rem;
+  }
+
+  .case-study td {
+    padding: 1rem 0;
+    border: none;
+  }
+
+  .case-study h2 {
+    margin-top: 0;
+  }
+  
   
 }
