@@ -1775,8 +1775,6 @@ td {
     width: 228px;
     padding-bottom: 20%;
     padding-top: 10%;
-    border-radius: 1px;
-    border: 2px solid #fff;
   }
   .connect2 a {
     text-decoration: none;
@@ -1789,9 +1787,4 @@ td {
     border: 2px solid #fff;
   }
   
-  .connect2 a:hover {
-    color: #fff;
-    /* background-color: #20bee5; */
-    border: none;
-  }
 }
