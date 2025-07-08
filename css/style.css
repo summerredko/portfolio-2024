@@ -621,7 +621,15 @@ a:visited {
   /* Ensure normal white-space handling */
   /* border: 2px double #4CAF50; */
   padding: 8px;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
+
+.case-study th, .case-study td {
+  width: 50%;
+}
+
 
 hr {
   border: 1px solid #effd5f;
