@@ -576,7 +576,7 @@ a:visited {
 }
 
 .project-container {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 @container (max-width: 660px) {
