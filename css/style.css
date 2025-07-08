@@ -377,31 +377,30 @@ a:visited {
 
 .image1 {
   background-image: url("../images/discover-photo.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
 }
 
 .image2 {
   background-image: url("../images/define-photo.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
 }
 
 .image3 {
   background-image: url("../images/design-photo.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
 }
-
 
 .case-study {
   width: 67%;
@@ -1489,16 +1488,6 @@ td {
     align-items: center;
   }
 
-  .image1,
-  .image2,
-  .image3 {
-    background-image: none !important;
-    background-color: #20bee5; /* or any solid color you prefer */
-    background-attachment: scroll; /* remove parallax on mobile */
-  }
-
-  
-
   nav {
     display: inline-block;
     float: right;
@@ -1742,4 +1731,14 @@ td {
   margin: 15px 0 10px 0;
   font-size: 1.3rem;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .image1,
+  .image2,
+  .image3 {
+    background-image: none !important;
+    background-color: #20bee5 /* or your preferred solid color */
+    background-attachment: scroll;
+  }
 }
