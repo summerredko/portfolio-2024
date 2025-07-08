@@ -1605,6 +1605,7 @@ td {
 
   .featured-projects p {
     font-family: "Crete Round", serif;
+    font-size: 2rem;
   }
 
   .img-mobile {
@@ -1766,5 +1767,7 @@ td {
 
   .featured-projects p {
     font-family: "Crete Round", serif;
+    color: #fff;
+    font-size: 2rem;
   }
 }
