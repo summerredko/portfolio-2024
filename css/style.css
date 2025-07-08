@@ -1595,7 +1595,7 @@ td {
   }
 
   .featured-projects {
-    background-color: #fffefe;
+    /* background-color: #fffefe; */
     padding: 10%;
     margin: 0 auto;
     border-radius: 8px;
@@ -1605,6 +1605,7 @@ td {
 
   .featured-projects p {
     font-family: "Crete Round", serif;
+    color: #fff;
   }
 
   .img-mobile {
