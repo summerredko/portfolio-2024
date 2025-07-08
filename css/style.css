@@ -1770,4 +1770,26 @@ td {
     color: #fff;
     font-size: 2rem;
   }
+
+  .connect2 {
+    width: 228px;
+    padding-bottom: 20%;
+    padding-top: 10%;
+  }
+  .connect2 a {
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    /* background-color: white; */
+    font-size: 1.5rem;
+    padding: 5%;
+    border-radius: 1px;
+    border: 2px solid #fff;
+  }
+  
+  .connect2 a:hover {
+    color: #fff;
+    background-color: #20bee5;
+    border: none;
+  }
 }
