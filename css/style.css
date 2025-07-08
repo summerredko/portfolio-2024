@@ -1801,5 +1801,12 @@ td {
     border-top: 1px solid #effd5f;
     /* width: 80%; */
   }
+
+  .list li {
+    font-family: "Crete Round", cursive;
+    font-size: 1rem !important;
+    color: #ffffff;
+    line-height: 2;
+  }
   
 }
