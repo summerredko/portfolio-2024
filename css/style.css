@@ -1795,7 +1795,11 @@ td {
   }
 
   .mobile-only-hr {
-    border: 1px solid #effd5f;
+    /* display: block; */
+    /* margin: 1.5rem auto; optional styling */
+    border: none;
+    border-top: 1px solid #effd5f;
+    /* width: 80%; */
   }
   
 }
