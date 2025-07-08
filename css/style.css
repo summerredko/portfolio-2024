@@ -1369,10 +1369,11 @@ td {
 
   header {
     height: 50vh;
-    background-size: contain;       /* fit whole image */
+    background-size: contain; /* fit whole image */
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #000;         /* fill empty space */
+    /* background-color: #000;         fill empty space */
+    background-image: url("../images/image6.jpg");
   }
 
   .welcome {
