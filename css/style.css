@@ -133,7 +133,6 @@ nav a:hover {
   padding: 0;
 }
 
-
 header {
   border-bottom: #fff solid 1px;
   clip-path: polygon(0% 0%, 0% 85%, 50% 100%, 100% 85%, 100% 0%);
@@ -1386,6 +1385,7 @@ td {
 
   .welcome {
     font-size: 3rem;
+    padding-bottom: 5%;
   }
 
   .footer-copyright {
@@ -1490,7 +1490,6 @@ td {
     justify-content: space-between;
     align-items: center;
   }
-  
 
   nav {
     display: inline-block;
