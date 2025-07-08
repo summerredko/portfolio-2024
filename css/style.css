@@ -1310,6 +1310,15 @@ td {
   .aboutme a {
     color: #fff !important;
   }
+
+  @media (max-width: 600px) {
+    .center-slider {
+      min-block-size: auto;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  
 }
 
 /* Flex layout for screen-body */
