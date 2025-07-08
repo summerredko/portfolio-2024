@@ -1831,5 +1831,11 @@ td {
     color: #8320e5;
     font-size: 0.95rem;
   }
+
+  .bio-photo img {
+    width: 100%;
+    height: auto;
+    border: white;
+  }
   
 }
