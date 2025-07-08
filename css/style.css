@@ -24,10 +24,6 @@ body {
   background-color: #fff;
 }
 
-.case-study td:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
 
 .container {
   margin: 0 auto;
