@@ -1805,10 +1805,10 @@ td {
     background-color: #fffefe !important;
     padding: 10%;
     margin: 0 auto;
-    border-radius: 8px;
-    border: 5px double #effd5f;
+    /* border-radius: 8px; */
+    /* border: 5px double #effd5f; */
     width: 450px;
-    color: #20bee5;
+    color: #20bee5 !important;
   }
   
 }
