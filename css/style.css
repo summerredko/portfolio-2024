@@ -24,7 +24,6 @@ body {
   background-color: #fff;
 }
 
-
 .container {
   margin: 0 auto;
   width: 80%;
@@ -1862,28 +1861,37 @@ td {
     padding-top: 10%;
   }
   
-  /* Table Flex*/
-  .case-study,
-  .case-study tbody,
-  .case-study tr,
-  .case-study td {
+}
+/* Responsive table for project pages*/
+
+/* Make table full width */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Responsive stacking on smaller screens */
+@media (max-width: 768px) {
+  .table-container table,
+  .table-container tbody,
+  .table-container tr,
+  .table-container td {
     display: block;
     width: 100%;
+  }
+
+  .table-container tr {
+    margin-bottom: 2rem; /* spacing between stacked rows */
+  }
+
+  .table-container td {
     box-sizing: border-box;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
   }
 
-  .case-study tr {
-    margin-bottom: 2rem;
+  .table-container td:last-child {
+    border-bottom: none;
   }
-
-  .case-study td {
-    padding: 1rem 0;
-    border: none;
-  }
-
-  .case-study h2 {
-    margin-top: 0;
-  }
-  
-  
 }
+
