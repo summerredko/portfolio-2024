@@ -2006,9 +2006,9 @@ td {
   }
 
   .resume {
-    width: 600px;
+    width: auto;
     /* or any width less than 100% */
-    margin: 80%;
+    margin: auto;
   }
   
   .resume h2 {
