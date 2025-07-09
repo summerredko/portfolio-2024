@@ -1855,3 +1855,46 @@ td {
     padding-top: 10%;
   }
 }
+
+/* Responsive Table for Case Studies*/
+
+/* Add this media query to your CSS */
+@media (max-width: 768px) { /* You can adjust this breakpoint as needed */
+  .case-study,
+  .case-study tbody,
+  .case-study tr {
+    display: block;
+    width: 100%;
+  }
+
+  .case-study tr {
+    margin-bottom: 15px; /* Add some space between stacked rows */
+    border: 1px solid #eee; /* Optional: add a border to differentiate rows */
+    padding: 10px; /* Optional: add padding inside each row */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+
+  .case-study td {
+    display: block; /* Make table cells behave like block-level elements */
+    width: 100%;
+    text-align: left; /* Ensure text is left-aligned within each stacked cell */
+    padding: 8px 0; /* Adjust padding as needed */
+  }
+
+  /* Optional: If you have table headers (<th>), you might want to hide them or
+     make them appear as labels for each cell on mobile. */
+  .case-study th {
+    display: none; /* Hide table headers on mobile */
+  }
+
+  /* If you want to show the column name as a label for each cell,
+     you'd need to add data attributes to your HTML <td> elements
+     (e.g., <td data-label="Column Name">) and then use CSS pseudo-elements:
+  .case-study td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  */
+}
