@@ -443,5 +443,15 @@
     </footer>
 
     <script src="thar.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
+        const mobileNav = document.querySelector(".mobile-nav");
+    
+        hamburger.addEventListener("click", function () {
+          mobileNav.classList.toggle("open");
+        });
+      });
+    </script>
   </body>
 </html>
