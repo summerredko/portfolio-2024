@@ -129,6 +129,11 @@ nav a:hover {
   padding: 16px;
 }
 
+.mobile-nav.open {
+  display: block;
+}
+
+
 .title a {
   font-family: "Georgia", serif;
   font-size: 3rem;

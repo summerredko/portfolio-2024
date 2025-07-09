@@ -337,12 +337,15 @@ Curious and ever-learning, I’m a true multipotentialite who loves diving into 
       </div>
     </footer>
     <script>
-      const hamburger = document.getElementById('hamburger-menu');
-      const mobileNav = document.getElementById('mobile-nav');
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
+        const mobileNav = document.querySelector(".mobile-nav");
     
-      hamburger.addEventListener('click', () => {
-        mobileNav.classList.toggle('active');
+        hamburger.addEventListener("click", function () {
+          mobileNav.classList.toggle("open");
+        });
       });
     </script>
+    
   </body>
 </html>
