@@ -1978,15 +1978,32 @@ td {
   }
 
   /* Show hamburger and mobile nav on small screens */
-  .hamburger {
-    display: flex;
-  }
-  nav {
-    display: none !important; /* Hide desktop nav */
-  }
-  .mobile-nav.active {
-    display: block;
+  @media (max-width: 768px) {
+    .top-flex nav {
+      display: none !important;
+    }
+    .hamburger {
+      display: flex !important;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 2000;
+    }
+    .mobile-nav {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: #343449;
+      width: 200px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 1500;
+    }
+    .mobile-nav.open {
+      display: block !important;
+    }
   }
 }
+
 
 
