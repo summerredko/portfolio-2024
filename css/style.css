@@ -1858,48 +1858,48 @@ td {
 
 /* Responsive Table for Case Studies*/
 
----
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
+@media (max-width: 768px) { /* Adjust this breakpoint if needed */
   .case-study {
-    border-collapse: separate; /* Allow margin/padding between rows */
     width: 100%;
+    border-collapse: separate; /* Important: Allows margins and padding on rows */
     display: block; /* Make the table itself a block */
   }
 
   .case-study thead {
-    display: none; /* Hide the table header on small screens */
+    display: none; /* Hide the table header on mobile */
   }
 
   .case-study tr {
-    display: block; /* Make each table row behave like a block */
-    margin-bottom: 20px; /* Space between each "card" (row) */
-    border: 1px solid #eee; /* Optional: border for each row-card */
-    padding: 15px; /* Padding inside each row-card */
-    background-color: #fff; /* Optional: background for each row-card */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+    display: block; /* Each row becomes a block, stacking vertically */
+    margin-bottom: 15px; /* Add space between each stacked row */
+    border: 1px solid #eee; /* Optional: adds a border around each 'row card' */
+    padding: 10px; /* Optional: adds internal padding to each 'row card' */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Optional: subtle shadow */
   }
 
+  .case-study th,
   .case-study td {
-    display: block; /* Make each cell stack vertically within its row */
+    display: block; /* Each table cell becomes a block, stacking within its row */
+    width: auto; /* Allow content to dictate width if no label */
     text-align: left; /* Ensure text is left-aligned */
-    padding: 8px 0; /* Adjust vertical padding for cells */
+    padding: 8px 0; /* Adjust vertical padding */
     border-bottom: 1px dashed #ddd; /* Separator between stacked cells */
   }
 
-  /* Remove border from the last cell in each row to avoid double lines */
+  /* Remove the bottom border from the last cell in each row */
   .case-study tr td:last-child {
     border-bottom: none;
   }
 
-  /* Optional: Add a label from data-attributes for each cell */
-  /* This requires adding data-label attributes to your HTML <td> elements, e.g.:
-     <td data-label="Project Title">My Awesome Project</td>
+  /* Optional: Add labels to each cell from data attributes for clarity */
+  /* This requires your HTML <td> to have data-label attributes, e.g.:
+     <td data-label="Heading">Cell Content</td>
   */
   .case-study td::before {
     content: attr(data-label);
     font-weight: bold;
-    display: block;
+    display: block; /* Make the label sit on its own line above the content */
     margin-bottom: 5px;
-    color: #20bee5; /* Example: highlight the label */
+    color: #20bee5; /* Example color for the label */
   }
 }
