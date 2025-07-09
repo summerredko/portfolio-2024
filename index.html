@@ -26,18 +26,6 @@
   <body>
     <!-- Header -->
     <header>
-      <button class="hamburger" aria-label="Menu" aria-expanded="false">
-        ☰
-      </button>
-      <nav class="mobile-nav">
-        <ul>
-          <li><a href="#aboutlink">about</a></li>
-          <li><a href="#projects">projects</a></li>
-          <li><a href="resume.html">resume</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
-      </nav>
-      
       <div class="top-flex">
         <div class="brandmark">
           <div class="logo">
@@ -333,16 +321,5 @@ Curious and ever-learning, I’m a true multipotentialite who loves diving into 
         </div>
       </div>
     </footer>
-    <script>
-      const hamburger = document.querySelector('.hamburger');
-      const mobileNav = document.querySelector('.mobile-nav');
-    
-      hamburger.addEventListener('click', () => {
-        mobileNav.classList.toggle('active');
-        const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
-        hamburger.setAttribute('aria-expanded', !expanded);
-      });
-    </script>
-    
   </body>
 </html>
