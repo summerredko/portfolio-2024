@@ -68,6 +68,11 @@ nav ul li a:focus {
   text-decoration: underline;
 }
 
+nav ul li a:visited {
+  color: #fff;
+}
+
+
 nav a:hover {
   color: #ccc;
   /* color: rgb(250, 122, 3); */
