@@ -2003,13 +2003,4 @@ td {
     }
   }
 
-  .brandmark .logo img {
-    display: none;
-  }
-
-  .title {
-    width: 176px;
-    margin-left: -120px;
-    text-decoration: none;
-  }
 }
