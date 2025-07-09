@@ -133,7 +133,6 @@ nav a:hover {
   display: block;
 }
 
-
 .title a {
   font-family: "Georgia", serif;
   font-size: 3rem;
@@ -177,7 +176,7 @@ nav a:hover {
 }
 
 .brandmark .logo {
-  width: 50px; /* adjust as needed */
+  width: 100px; /* adjust as needed */
 }
 
 .brandmark .logo img {
@@ -1996,7 +1995,7 @@ td {
       right: 20px;
       background: #343449;
       width: 200px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
       z-index: 1500;
     }
     .mobile-nav.open {
@@ -2004,17 +2003,13 @@ td {
     }
   }
 
-
   .brandmark .logo img {
     display: none;
-}
+  }
 
   .title {
     width: 176px;
     margin-left: -120px;
     text-decoration: none;
+  }
 }
-}
-
-
-
