@@ -72,7 +72,6 @@ nav ul li a:visited {
   color: #fff;
 }
 
-
 nav a:hover {
   color: #ccc;
   /* color: rgb(250, 122, 3); */
@@ -95,12 +94,12 @@ nav a:hover {
   justify-content: space-between;
   z-index: 2000;
 }
-
 .hamburger span {
   display: block;
   height: 4px;
   background: #fff;
   border-radius: 2px;
+  margin: 4px 0;
   transition: 0.3s;
 }
 
@@ -108,23 +107,21 @@ nav a:hover {
 .mobile-nav {
   display: none;
   position: absolute;
-  top: 60px; /* adjust as needed */
-  right: 0;
+  top: 60px;
+  right: 20px;
   background: #343449;
   width: 200px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1500;
 }
-
 .mobile-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .mobile-nav li {
   border-bottom: 1px solid #444;
 }
-
 .mobile-nav a {
   display: block;
   color: #fff;
@@ -1912,7 +1909,8 @@ td {
 }
 
 /* Responsive Table for Case Studies*/
-@media (max-width: 768px) { /* Keep this breakpoint, or adjust as needed */
+@media (max-width: 768px) {
+  /* Keep this breakpoint, or adjust as needed */
   .case-study {
     display: block; /* Make the table itself a block-level element */
     width: 100%;
@@ -1935,7 +1933,7 @@ td {
     border: 1px solid #eee; /* Optional: border around each row */
     padding: 15px; /* Padding inside each row */
     background-color: #fff; /* Optional: background for each row */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
     box-sizing: border-box; /* Include padding/border in width */
   }
 
@@ -1973,10 +1971,8 @@ td {
     margin-bottom: 5px;
     color: #20bee5; /* Example label color */
   }
-}
 
-/* Show hamburger and mobile nav on small screens */
-@media (max-width: 768px) {
+  /* Show hamburger and mobile nav on small screens */
   .hamburger {
     display: flex;
   }
@@ -1987,3 +1983,5 @@ td {
     display: block;
   }
 }
+
+
