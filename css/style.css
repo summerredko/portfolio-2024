@@ -2005,5 +2005,17 @@ td {
     font-size: 3rem;
   }
 
+  .resume {
+    width: 600px;
+    /* or any width less than 100% */
+    margin: 80%;
+  }
+  
+  .resume h2 {
+    font-family: "Bitter", serif;
+    font-size: 4rem;
+    color: #20bee5;
+  }
+
 
 }
