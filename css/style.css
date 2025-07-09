@@ -278,8 +278,8 @@ header {
   padding-bottom: 20%;
 }
 
-.Grand Hotel {
-  font-family: "Grand Hotel", cursive;
+.Bevan {
+  font-family: "Bevan", cursive;
 }
 
 #services {
@@ -304,7 +304,7 @@ header {
 .apply p {
   color: #20bee5;
   background-color: #fff;
-  font-family: "Grand Hotel", serif;
+  font-family: "Bevan", serif;
   font-size: 3rem;
   width: 550px;
   padding: 5% 5% 5% 5%;
@@ -627,7 +627,7 @@ hr {
 }
 
 h1 {
-  font-family: "Grand Hotel", serif;
+  font-family: "Bevan", serif;
   font-size: 2.4rem;
   color: #20bee5;
   margin-bottom: 0;
@@ -1529,7 +1529,7 @@ td {
   }
 
   .apply p {
-    font-family: "Grand Hotel", serif;
+    font-family: "Bevan", serif;
     font-size: 3rem;
     background-color: #fff;
   }
@@ -1742,14 +1742,14 @@ td {
   }
 
   h1 {
-    font-family: "Grand Hotel", serif;
+    font-family: "Bevan", serif;
     font-size: 3rem;
     color: #fff;
     margin-bottom: 0;
   }
 
   .project-container h1 {
-    font-family: "Grand Hotel", serif;
+    font-family: "Bevan", serif;
     font-size: 3rem;
     color: #20bee5;
     margin-bottom: 0;
@@ -1791,7 +1791,7 @@ td {
   }
 
   .apply p {
-    font-family: "Grand Hotel", serif;
+    font-family: "Bevan", serif;
     font-size: 3rem;
     background-color: #20bee5;
     color: #fff;
@@ -1808,7 +1808,7 @@ td {
 
   .list li {
     font-family: "Crete Round", cursive;
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
     color: #ffffff;
     line-height: 2;
   }
@@ -1857,7 +1857,7 @@ td {
 }
 
 /* Responsive Table for Case Studies*/
-@media (max-width: 768px) { /* Adjust this breakpoint if needed */
+@media (max-width: 768px) { /* Keep this breakpoint, or adjust as needed */
   .case-study {
     display: block; /* Make the table itself a block-level element */
     width: 100%;
@@ -1877,10 +1877,10 @@ td {
     display: block; /* Each table row will now stack vertically */
     width: 100%;
     margin-bottom: 20px; /* Space between each 'card-like' row */
-    border: 1px solid #eee; /* This is the border *around the whole row-card* */
+    border: 1px solid #eee; /* Optional: border around each row */
     padding: 15px; /* Padding inside each row */
-    background-color: #fff; /* Background for each row-card */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for each row-card */
+    background-color: #fff; /* Optional: background for each row */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
     box-sizing: border-box; /* Include padding/border in width */
   }
 
@@ -1890,9 +1890,15 @@ td {
     width: 100%; /* Ensure each cell takes the full width of its parent row */
     padding: 8px 0; /* Adjust vertical padding */
     text-align: left; /* Ensure text alignment */
-    /* No border-bottom here for cells */
+    border-bottom: 1px dashed #ddd; /* Separator between stacked cells */
     box-sizing: border-box; /* Include padding/border in width */
     height: auto; /* Reset height for stacked cells, allows content to dictate height */
+  }
+
+  /* Remove the border from the last cell within each stacked row */
+  .case-study tr td:last-child,
+  .case-study tr th:last-child {
+    border-bottom: none;
   }
 
   /* Hide the table headers, as they don't make sense in a stacked layout */
