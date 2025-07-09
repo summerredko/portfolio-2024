@@ -1124,13 +1124,13 @@ table {
   padding-top: 20%;
   padding-bottom: 20%;
 }
-
+/* 
 th,
 td {
   height: 50px;
   border-collapse: collapse;
   width: 100%;
-}
+} */
 
 .social {
   width: 100%;
@@ -1857,53 +1857,65 @@ td {
 }
 
 /* Responsive Table for Case Studies*/
-
----
-@media (max-width: 768px) { /* Adjust this breakpoint if needed */
+@media (max-width: 768px) { /* Keep this breakpoint, or adjust as needed */
   .case-study {
+    display: block; /* Make the table itself a block-level element */
     width: 100%;
-    border-collapse: separate; /* Important for spacing on rows */
-    /* No need for display: block here for the table itself, it can remain a table */
+    border-collapse: separate; /* Ensures spacing can be applied to rows */
+    border-spacing: 0; /* Important: Removes any default cell spacing */
+    background-color: transparent; /* Ensure no background interferes */
+    table-layout: auto; /* Reset table-layout to auto for flexible columns */
   }
 
-  .case-study thead {
-    display: none; /* Hide the table header on mobile */
+  .case-study thead,
+  .case-study tbody {
+    display: block; /* Make tbody also behave like a block */
+    width: 100%;
   }
 
   .case-study tr {
-    display: flex; /* Make the table row a flex container */
-    flex-direction: column; /* Stack flex items (tds) vertically */
-    margin-bottom: 20px; /* Space between each stacked row/card */
-    border: 1px solid #eee; /* Optional: border around each row-card */
-    padding: 15px; /* Padding inside each row-card */
-    background-color: #fff; /* Optional: background for each row-card */
+    display: block; /* Each table row will now stack vertically */
+    width: 100%;
+    margin-bottom: 20px; /* Space between each 'card-like' row */
+    border: 1px solid #eee; /* Optional: border around each row */
+    padding: 15px; /* Padding inside each row */
+    background-color: #fff; /* Optional: background for each row */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+    box-sizing: border-box; /* Include padding/border in width */
   }
 
   .case-study th,
   .case-study td {
-    /* No need for display: block here anymore, flexbox handles it */
-    width: 100%; /* Ensure each cell takes full width of its flex container (tr) */
-    text-align: left; /* Ensure text is left-aligned */
+    display: block; /* Make each cell stack within its row */
+    width: 100%; /* Ensure each cell takes the full width of its parent row */
     padding: 8px 0; /* Adjust vertical padding */
+    text-align: left; /* Ensure text alignment */
     border-bottom: 1px dashed #ddd; /* Separator between stacked cells */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    box-sizing: border-box; /* Include padding/border in width */
+    height: auto; /* Reset height for stacked cells, allows content to dictate height */
   }
 
-  /* Remove the bottom border from the last cell in each row */
-  .case-study tr td:last-child {
+  /* Remove the border from the last cell within each stacked row */
+  .case-study tr td:last-child,
+  .case-study tr th:last-child {
     border-bottom: none;
   }
 
+  /* Hide the table headers, as they don't make sense in a stacked layout */
+  .case-study th {
+    display: none;
+  }
+
   /* Optional: Add labels to each cell from data attributes for clarity */
-  /* This requires your HTML <td> to have data-label attributes, e.g.:
-     <td data-label="Heading">Cell Content</td>
+  /* For this to work, ensure your HTML <td> elements have a data-label attribute:
+     <td data-label="Project Name">My Awesome Project</td>
+     <td data-label="Client">Acme Corp</td>
   */
   .case-study td::before {
     content: attr(data-label);
     font-weight: bold;
-    display: block; /* Make the label sit on its own line above the content */
+    display: block; /* Make the label appear above the content */
     margin-bottom: 5px;
-    color: #20bee5; /* Example color for the label */
+    color: #20bee5; /* Example label color */
   }
 }
