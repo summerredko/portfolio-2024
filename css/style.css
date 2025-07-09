@@ -1857,7 +1857,7 @@ td {
 }
 
 /* Responsive Table for Case Studies*/
-@media (max-width: 768px) { /* Keep this breakpoint, or adjust as needed */
+@media (max-width: 768px) { /* Adjust this breakpoint if needed */
   .case-study {
     display: block; /* Make the table itself a block-level element */
     width: 100%;
@@ -1877,10 +1877,10 @@ td {
     display: block; /* Each table row will now stack vertically */
     width: 100%;
     margin-bottom: 20px; /* Space between each 'card-like' row */
-    border: 1px solid #eee; /* Optional: border around each row */
+    border: 1px solid #eee; /* This is the border *around the whole row-card* */
     padding: 15px; /* Padding inside each row */
-    background-color: #fff; /* Optional: background for each row */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+    background-color: #fff; /* Background for each row-card */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for each row-card */
     box-sizing: border-box; /* Include padding/border in width */
   }
 
@@ -1890,15 +1890,9 @@ td {
     width: 100%; /* Ensure each cell takes the full width of its parent row */
     padding: 8px 0; /* Adjust vertical padding */
     text-align: left; /* Ensure text alignment */
-    border-bottom: 1px dashed #ddd; /* Separator between stacked cells */
+    /* No border-bottom here for cells */
     box-sizing: border-box; /* Include padding/border in width */
     height: auto; /* Reset height for stacked cells, allows content to dictate height */
-  }
-
-  /* Remove the border from the last cell within each stacked row */
-  .case-study tr td:last-child,
-  .case-study tr th:last-child {
-    border-bottom: none;
   }
 
   /* Hide the table headers, as they don't make sense in a stacked layout */
