@@ -360,7 +360,7 @@ header {
 .apply p {
   color: #20bee5;
   background-color: #fff;
-  font-family: "Sofia", serif;
+  font-family: "Oswald", serif;
   font-size: 3rem;
   width: 550px;
   padding: 5% 5% 5% 5%;
@@ -683,7 +683,7 @@ hr {
 }
 
 h1 {
-  font-family: "Sofia", serif;
+  font-family: "Oswald", serif;
   font-size: 2.4rem;
   color: #20bee5;
   margin-bottom: 0;
@@ -1585,7 +1585,7 @@ td {
   }
 
   .apply p {
-    font-family: "Sofia", serif;
+    font-family: "Oswald", serif;
     font-size: 3rem;
     background-color: #fff;
   }
@@ -1798,14 +1798,14 @@ td {
   }
 
   h1 {
-    font-family: "Sofia", serif;
+    font-family: "Oswald", serif;
     font-size: 3rem;
     color: #fff;
     margin-bottom: 0;
   }
 
   .project-container h1 {
-    font-family: "Sofia", serif;
+    font-family: "Oswald", serif;
     font-size: 3rem;
     color: #20bee5;
     margin-bottom: 0;
@@ -1847,7 +1847,7 @@ td {
   }
 
   .apply p {
-    font-family: "Sofia", serif;
+    font-family: "Oswald", serif;
     font-size: 3rem;
     background-color: #20bee5;
     color: #fff;
