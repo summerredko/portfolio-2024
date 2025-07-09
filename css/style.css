@@ -1858,43 +1858,48 @@ td {
 
 /* Responsive Table for Case Studies*/
 
-/* Add this media query to your CSS */
-@media (max-width: 768px) { /* You can adjust this breakpoint as needed */
-  .case-study,
-  .case-study tbody,
-  .case-study tr {
-    display: block;
+---
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .case-study {
+    border-collapse: separate; /* Allow margin/padding between rows */
     width: 100%;
+    display: block; /* Make the table itself a block */
+  }
+
+  .case-study thead {
+    display: none; /* Hide the table header on small screens */
   }
 
   .case-study tr {
-    margin-bottom: 15px; /* Add some space between stacked rows */
-    border: 1px solid #eee; /* Optional: add a border to differentiate rows */
-    padding: 10px; /* Optional: add padding inside each row */
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    display: block; /* Make each table row behave like a block */
+    margin-bottom: 20px; /* Space between each "card" (row) */
+    border: 1px solid #eee; /* Optional: border for each row-card */
+    padding: 15px; /* Padding inside each row-card */
+    background-color: #fff; /* Optional: background for each row-card */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
   }
 
   .case-study td {
-    display: block; /* Make table cells behave like block-level elements */
-    width: 100%;
-    text-align: left; /* Ensure text is left-aligned within each stacked cell */
-    padding: 8px 0; /* Adjust padding as needed */
+    display: block; /* Make each cell stack vertically within its row */
+    text-align: left; /* Ensure text is left-aligned */
+    padding: 8px 0; /* Adjust vertical padding for cells */
+    border-bottom: 1px dashed #ddd; /* Separator between stacked cells */
   }
 
-  /* Optional: If you have table headers (<th>), you might want to hide them or
-     make them appear as labels for each cell on mobile. */
-  .case-study th {
-    display: none; /* Hide table headers on mobile */
+  /* Remove border from the last cell in each row to avoid double lines */
+  .case-study tr td:last-child {
+    border-bottom: none;
   }
 
-  /* If you want to show the column name as a label for each cell,
-     you'd need to add data attributes to your HTML <td> elements
-     (e.g., <td data-label="Column Name">) and then use CSS pseudo-elements:
+  /* Optional: Add a label from data-attributes for each cell */
+  /* This requires adding data-label attributes to your HTML <td> elements, e.g.:
+     <td data-label="Project Title">My Awesome Project</td>
+  */
   .case-study td::before {
     content: attr(data-label);
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
+    color: #20bee5; /* Example: highlight the label */
   }
-  */
 }
