@@ -2011,7 +2011,7 @@ td {
 
   .title {
     width: 176px;
-    margin: -20px;
+    margin-left: -120px;
     text-decoration: none;
 }
 }
